@@ -1,9 +1,9 @@
-# iBook
-__Backend__ часть для книжного маркетплейса `ibook`, написаная на современном асинхронном `FastAPI`. Так же используются __PostgreSQL, Redis, RabbitMQ, Celery, Alembic, SQLAlchemy, pytest, gunicorn, Docker, Prometheus, Grafana, Sentry__. Дополнительно проект настроен на использование `Stripe` для оплаты заказов на книги.
+# BookBumper
+__Backend__ часть для книжного маркетплейса `BookBumper`, написаная на современном асинхронном `FastAPI`. Так же используются __PostgreSQL, Redis, RabbitMQ, Celery, Alembic, SQLAlchemy, pytest, gunicorn, Docker, Prometheus, Grafana, Sentry__. Дополнительно проект настроен на использование `Stripe` для оплаты заказов на книги.
 ## Установка
 ```bash
-git clone https://github.com/involved-entity/ibook
-cd ibook
+git clone https://github.com/bumpin-that/BookBumper
+cd BookBumper
 docker-compose up
 ```
 Проект будет запущен в продакшен режиме на `http://localhost`:
