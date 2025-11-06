@@ -1,9 +1,9 @@
-# BookBumper
-__Backend__ часть для книжного маркетплейса `BookBumper`, написаная на современном асинхронном `FastAPI`. Так же используются __PostgreSQL, Redis, RabbitMQ, Celery, Alembic, SQLAlchemy, pytest, gunicorn, Docker, Prometheus, Grafana, Sentry__. Дополнительно проект настроен на использование `Stripe` для оплаты заказов на книги.
+# BookMortal
+__Backend__ часть для книжного маркетплейса `BookMortal`, написаная на современном асинхронном `FastAPI`. Так же используются __PostgreSQL, Redis, RabbitMQ, Celery, Alembic, SQLAlchemy, pytest, gunicorn, Docker, Prometheus, Grafana, Sentry__. Дополнительно проект настроен на использование `Stripe` для оплаты заказов на книги.
 ## Установка
 ```bash
-git clone https://github.com/bumpin-that/BookBumper
-cd BookBumper
+git clone https://github.com/obituary-for-the-immortal/BookMortal
+cd BookMortal
 docker-compose up
 ```
 Проект будет запущен в продакшен режиме на `http://localhost`:
